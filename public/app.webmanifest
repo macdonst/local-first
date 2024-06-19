@@ -1,0 +1,30 @@
+{
+    "name": "Local First",
+    "short_name": "Local First",
+    "start_url": "/",
+    "scope": "/",
+    "display": "minimal-ui",
+    "theme_color": "#a0094a",
+    "background_color": "#15171b",
+    "description": "Local First is a exploration into build an offline Enhance app.",
+    "orientation": "any",
+    "icons": [
+      {
+        "src": "/_public/wink-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+      },
+      {
+        "src": "/_public/wink-maskable.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/_public/wink-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
