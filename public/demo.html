@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Demo of code-pen Web Component" />
+    <title>code-pen Web Component Demo</title>
+
+    <script type="module" src="code-pen.js"></script>
+  </head>
+  <body>
+    <h2>General usage example</h2>
+
+    <code-pen>
+      <pre>
+        <code>&lt;p&gt;Hello world&lt;/p&gt;</code>
+      </pre>
+    </code-pen>
+
+    <hr />
+
+    <h2>Examlpe with 3 <code>code</code> elements which default to HTML, CSS and JavaScript respectively:</h2>
+
+    <code-pen>
+      <pre>
+        <code>&lt;p&gt;Hello world&lt;/p&gt;</code>
+      </pre>
+      <pre>
+        <code>:root { color: hotpink; }</code>
+      </pre>
+      <pre>
+        <code>document.querySelector(&quot;p&quot;).style.backgroundColor = &quot;orange&quot;;</code>
+      </pre>
+    </code-pen>
+
+    <hr />
+
+    <h2>Examlpe with 2 <code>code</code> elements which default to HTML and CSS respectively:</h2>
+
+    <code-pen>
+      <pre>
+        <code>&lt;p&gt;Hello world&lt;/p&gt;</code>
+      </pre>
+      <pre>
+        <code>:root { color: hotpink; }</code>
+      </pre>
+    </code-pen>
+  </body>
+</html>

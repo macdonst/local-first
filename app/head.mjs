@@ -39,6 +39,9 @@ export default function Head(state) {
       <title>Local First</title>
       ${styles}
       <style>
+        :root {
+          color-scheme: only light;
+        }
         body {
           color: var(--dark);
           background-color: var(--light);
